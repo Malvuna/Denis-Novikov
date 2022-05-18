@@ -38,3 +38,8 @@ color: #ffffff;
   align-items: center;
   column-gap: 61px;
 }
+
+.button a {
+text-decoration: none;
+color: #ffffff;
+}

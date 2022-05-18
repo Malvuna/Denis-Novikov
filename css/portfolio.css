@@ -21,3 +21,10 @@
 .portfolio__img {
   padding: 99px 0 42px; 0
 }
+
+.portfolio a {
+font-family: "GilroyMedium", sans-serif;
+font-size: 18px;
+line-height: 21px;
+color: #070707;
+  }
