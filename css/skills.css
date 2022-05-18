@@ -1,0 +1,42 @@
+#skills {
+    padding: 91px 0 91px;
+    text-align: center;
+    }
+
+.skills h2 {
+font-family: "GilroyBold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    }           
+
+.skills p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 69px;
+    }
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_img {
+    margin-top: 87px;
+}
+
+.card_name {
+font-family: "GilroyBold", sans-serif;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+margin-top: 24px;
+}
+
+
+.card_star {
+    margin-top: 40px;
+}

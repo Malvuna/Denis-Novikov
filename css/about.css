@@ -1,0 +1,26 @@
+#about {
+    padding: 120px 0 107px;
+    background-color: #F6F6F6;
+    text-align: center;
+    }
+
+.about h2 {
+    font-family: "GilroyBold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    }           
+
+  .about__text {
+    width: 486px;
+    margin: 0 auto;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+

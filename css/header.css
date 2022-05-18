@@ -1,0 +1,29 @@
+header {
+  padding: 33px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items a {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #828282;
+}
+
+.items a:hover {
+  color: #070707;
+}
+
+hr {
+  display: block;
+  margin: 0 auto;
+  max-width: 940px;
+  border-bottom: 1px solid #828282;
+}

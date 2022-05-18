@@ -1,0 +1,34 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "GilroyMedium", sans-serif;
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  box-sizing: content-box;
+}
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("/fonts/gilroy-Medium.woff") format("woff"),
+    url("/fonts/gilroy-Medium.woff2") format("woff2"),
+    url("/fonts/gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../fonts/gilroy-Bold.woff") format("woff"),
+    url("../fonts/gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

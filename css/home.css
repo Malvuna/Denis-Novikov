@@ -1,0 +1,32 @@
+#home {
+  padding: 40px 0 104px;
+}
+
+.home__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 31px;
+}
+
+.home__title h1 {
+  font-family: "GilroyBold", sans-serif;
+  font-size: 47px;
+  line-height: 59px;
+  text-align: left;
+  color: #070707;
+}
+
+.home__title p {
+  max-width: 156px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  color: #070707;
+}
+
+.home__img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
