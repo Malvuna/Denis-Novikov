@@ -17,10 +17,11 @@ font-family: "GilroyBold", sans-serif;
     margin-top: 69px;
     }
 
-.card {
+.wraper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 90px;
 }
 
 .card_img {
@@ -34,6 +35,7 @@ line-height: 17px;
 text-align: center;
 color: #828282;
 margin-top: 24px;
+margin-bottom: 40px;
 }
 
 
