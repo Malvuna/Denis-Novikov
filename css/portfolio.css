@@ -1,0 +1,23 @@
+#portfolio {
+  padding: 112px 0 96px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-family: "GilroyBold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.portfolio p {
+    font-family: "GilroyBold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.portfolio__img {
+  padding: 99px 0 42px; 0
+}

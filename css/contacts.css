@@ -1,0 +1,40 @@
+#contacts {
+  padding: 91px 0;
+  text-align: center;
+}
+
+.contacts h2 {
+  font-family: "GilroyBold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 69px;
+}
+
+.button {
+margin-top: 30px;
+margin-bottom: 86px;
+background: #070707;
+border: none;
+border-radius: 20px;
+height: 42px;
+width: 181px;
+font-size: 18px;
+font-family: "GilroyBold", sans-serif;
+line-height: 22px;
+color: #ffffff;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 61px;
+}
