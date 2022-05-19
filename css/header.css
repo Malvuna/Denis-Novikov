@@ -6,6 +6,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "GilroyBold", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .items a {
@@ -13,7 +16,6 @@ header {
   line-height: 22px;
   text-align: left;
   text-decoration: none;
-  text-transform: uppercase;
   color: #828282;
 }
 

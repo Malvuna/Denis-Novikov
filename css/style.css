@@ -1,3 +1,11 @@
+@import url("/css/header.css");
+@import url("/css/home.css");
+@import url("/css/about.css");
+@import url("/css/skills.css");
+@import url("/css/portfolio.css");
+@import url("/css/contacts.css");
+@import url("/css/footer.css");
+
 html {
   scroll-behavior: smooth;
 }
