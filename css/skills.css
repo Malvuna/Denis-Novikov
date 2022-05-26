@@ -66,4 +66,5 @@
 @media (max-width: 768px) {
   .wraper {
     flex-direction: column;
+    row-gap: 81px;
   }
