@@ -1,6 +1,6 @@
 #portfolio {
   padding: 112px 0 96px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   text-align: center;
 }
 
@@ -12,19 +12,48 @@
 }
 
 .portfolio p {
-    font-family: "GilroyBold", sans-serif;
+  font-family: "GilroyBold", sans-serif;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
 }
 
 .portfolio__img {
-  padding: 99px 0 42px; 0
+  padding: 99px 0 42px;
+}
+
+.portfolio__img img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio a {
-font-family: "GilroyMedium", sans-serif;
-font-size: 18px;
-line-height: 21px;
-color: #070707;
+  font-family: "GilroyMedium", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+@media (max-width: 576px) {
+  #portfolio {
+    padding: 81px 29px 81px;
   }
+
+  .portfolio__img {
+    margin-bottom: 33px;
+    padding: 0;
+  }
+
+  .portfolio h2 {
+    margin-bottom: 65px;
+  }
+
+  .portfolio p {
+    margin-bottom: 33px;
+  }
+
+  .portfolio p:last-child {
+    margin-bottom: 0;
+  }
+}

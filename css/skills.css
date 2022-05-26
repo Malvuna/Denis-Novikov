@@ -1,44 +1,69 @@
 #skills {
-    padding: 91px 0 91px;
-    text-align: center;
-    }
+  padding: 91px 0 91px;
+  text-align: center;
+}
+
+.skills {
+  padding-bottom: 87px;
+}
 
 .skills h2 {
-font-family: "GilroyBold", sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-    }           
+  font-family: "GilroyBold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
 
 .skills p {
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 69px;
-    }
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 69px;
+}
 
 .wraper {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 90px;
 }
 
-.card_img {
-    margin-top: 87px;
-}
-
 .card_name {
-font-family: "GilroyBold", sans-serif;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #828282;
-margin-top: 24px;
-margin-bottom: 40px;
+  font-family: "GilroyBold", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
-
 
 .card_star {
-    margin-top: 40px;
+  margin-top: 40px;
 }
+
+@media (max-width: 576px) {
+  #skills {
+    padding: 83px 0 99px;
+    text-align: center;
+  }
+
+  .wraper {
+    margin-top: 71px;
+    flex-direction: column;
+    row-gap: 81px;
+  }
+
+  .card_img {
+    margin-top: 0;
+  }
+
+  .skills p {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wraper {
+    flex-direction: column;
+  }

@@ -29,3 +29,33 @@ hr {
   max-width: 940px;
   border-bottom: 1px solid #828282;
 }
+
+.header__logo-mob {
+  display: none;
+}
+
+.header__logo-mob img {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  header {
+    position: relative;
+    padding: 0;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .header__logo-mob {
+    position: absolute;
+    display: block;
+    top: 68px;
+    right: 30px;
+  }
+}

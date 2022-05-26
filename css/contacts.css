@@ -19,20 +19,20 @@
 }
 
 .button {
-margin-top: 30px;
-margin-bottom: 86px;
-background: #070707;
-border: none;
-border-radius: 20px;
-height: 42px;
-width: 181px;
-font-size: 18px;
-font-family: "GilroyBold", sans-serif;
-line-height: 22px;
-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 86px;
+  background: #070707;
+  border: none;
+  border-radius: 20px;
+  height: 42px;
+  width: 181px;
+  font-size: 18px;
+  font-family: "GilroyBold", sans-serif;
+  line-height: 22px;
+  color: #ffffff;
 }
 
-.social{
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,29 @@ color: #ffffff;
 }
 
 .button a {
-text-decoration: none;
-color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  #contacts {
+    padding: 82px 29px 49px;
+  }
+
+  .contacts h2 {
+    margin-bottom: 27px;
+  }
+
+  .contacts p {
+    margin-top: 0;
+  }
+
+  .button {
+    margin: 40px 0 48px;
+  }
+
+  .social {
+    justify-content: space-between;
+    column-gap: 0;
+  }
 }

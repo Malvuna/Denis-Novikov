@@ -1,26 +1,30 @@
 #about {
-    padding: 120px 0 107px;
-    background-color: #F6F6F6;
-    text-align: center;
-    }
+  padding: 120px 0 107px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
 
 .about h2 {
-    font-family: "GilroyBold", sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-    }           
+  font-family: "GilroyBold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
 
-  .about__text {
-    width: 486px;
-    margin: 0 auto;
+.about__text {
+  max-width: 486px;
+  margin: 0 auto;
 }
 
 .about p {
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 50px;
 }
 
-
+@media (max-width: 576px) {
+  #about {
+    padding: 81px 29px 76px;
+  }
+}

@@ -19,6 +19,14 @@
             <li class="items"><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
+        <div class="header__logo-mob">
+          <img
+            src="/img/home/icon-burger.svg"
+            alt="burger"
+            width="33"
+            height="19"
+          />
+        </div>
       </div>
     </header>
 
@@ -32,33 +40,39 @@
             <p>UX | UI designer 24 years old, Minsk</p>
           </div>
 
-          <div class="home__img">
+          <picture class="home__img">
+            <source
+              media="(max-width: 576px)"
+              srcset="/img/home/home-mobile.jpg"
+            />
             <img
               src="img/home/image-home.jpg"
               alt="Denis"
               width="940"
               height="387"
             />
-          </div>
+          </picture>
         </div>
       </section>
 
       <section id="about">
-        <div class="about">
-          <h2>About me</h2>
-          <div class="about__text">
-            <p>
-              Hi, I'm Denis – UX/UI designer from Minsk. <br />
-              I'm interested in design and everything connected with it.
-            </p>
-            <p>
-              I'm studying at courses "Web and mobile design interfaces" in
-              IT-Academy.
-            </p>
-            <p>
-              Ready to implement excellent projects <br />
-              with wonderful people.
-            </p>
+        <div class="container">
+          <div class="about">
+            <h2>About me</h2>
+            <div class="about__text">
+              <p>
+                Hi, I'm Denis – UX/UI designer from Minsk. <br />
+                I'm interested in design and everything connected with it.
+              </p>
+              <p>
+                I'm studying at courses "Web and mobile design interfaces" in
+                IT-Academy.
+              </p>
+              <p>
+                Ready to implement excellent projects <br />
+                with wonderful people.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -118,54 +132,66 @@
           <h2>Portfolio</h2>
 
           <div class="portfolio__img">
-            <img src="./img/portfolio/portfolio_1.jpg" alt="Online fashion store" />
+            <img
+              src="./img/portfolio/portfolio_1.jpg"
+              alt="Online fashion store"
+            />
           </div>
-          <p><a href="https://www.online-fashion.ru/">Online fashion store - Homepage</a></p>
-          
+          <p>
+            <a href="https://www.online-fashion.ru/"
+              >Online fashion store - Homepage</a
+            >
+          </p>
+
           <div class="portfolio__img">
             <img src="./img/portfolio/portfolio_2.jpg" alt="Reebok" />
           </div>
           <p><a href="https://www.reebok.ru/">Reebok Store - Concept</a></p>
-          
+
           <div class="portfolio__img">
             <img src="./img/portfolio/portfolio_3.jpg" alt="Braun" />
           </div>
-          <p><a href="https://braun-russia.ru/">Braun Landing Page - Concept</a></p>
+          <p>
+            <a href="https://braun-russia.ru/">Braun Landing Page - Concept</a>
+          </p>
         </div>
       </section>
 
       <section id="contacts">
-        <div class="contacts">
-          <h2>Contacts</h2>
-          <p>
-            Want to know more or just chat? <br />
-            You are welcome!
-          </p>
-        </div>
+        <div class="container">
+          <div class="contacts">
+            <h2>Contacts</h2>
+            <p>
+              Want to know more or just chat? <br />
+              You are welcome!
+            </p>
+          </div>
 
-        <button class="button">
-          <a href="tg://resolve?domain=USERNAME"> Send message </a>
-        </button>
-        <div class="social">
-          <div>
-            <a href="https://ru.wikipedia.org/wiki/Instagram" target="_blank">
-              <img src="./img/contacts/in.svg" alt="Instagram">
-            </a>
-          </div>
-          <div>
-            <a href="https://ru.wikipedia.org/wiki/Instagram" target="_blank"
-              ><img src="/img/contacts/inst.svg" alt="Instagram">
-            </a>
-          </div>
-          <div>
-            <a href="https://ru.wikipedia.org/wiki/Behance" target="_blank"
-              ><img src="/img/contacts/be.svg" alt="Behance">
-            </a>
-          </div>
-          <div>
-            <a href="https://en.wikipedia.org/wiki/Dribbble" target="_blank">
-              <img src="/img/contacts/e.svg" alt="Dribbble"> </a>
-            
+          <button class="button">
+            <a href="tg://resolve?domain=USERNAME"> Send message </a>
+          </button>
+
+          <div class="social">
+            <div>
+              <a href="https://ru.wikipedia.org/wiki/Instagram" target="_blank">
+                <img src="./img/contacts/in.svg" alt="Instagram" />
+              </a>
+            </div>
+            <div>
+              <a href="https://ru.wikipedia.org/wiki/Instagram" target="_blank"
+                ><img src="/img/contacts/inst.svg" alt="Instagram" />
+              </a>
+            </div>
+            <div>
+              <a href="https://ru.wikipedia.org/wiki/Behance" target="_blank"
+                ><img src="/img/contacts/be.svg" alt="Behance" />
+              </a>
+            </div>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Dribbble" target="_blank">
+                <img src="/img/contacts/e.svg" alt="Dribbble" />
+              </a>
+            </div>
           </div>
         </div>
       </section>

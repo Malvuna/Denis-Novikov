@@ -1,8 +1,15 @@
 .footer {
-font-family: "GilroyMedium", sans-serif;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #828282;
-margin-bottom: 123px;
+  font-family: "GilroyMedium", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 123px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-bottom: 90px;
+    margin: 0;
+  }
 }
